@@ -2,9 +2,9 @@ import { notFound } from 'next/navigation';
 import { getCartData, getHomePage } from '../data/loader';
 import classes from './home.module.css'
 import { getStrapiURL } from '../utils/get-strapi-url';
-import Banner from '../../components/Banner/page';
-import ContentPage from '../../components/Content/page';
-import CartPage from '../../components/Cart/page';
+import Banner from '../../components/Banner';
+import ContentPage from '../../components/Content';
+import CartPage from '../../components/Cart';
 
 
 async function loader() {
@@ -36,7 +36,7 @@ export default async function Home() {
 
       <ContentPage classes={classes} BASE_URL={BASE_URL} infoBlocks={infoBlocks} />
 
-     <CartPage classes={classes} BASE_URL={BASE_URL} />
+      <CartPage classes={classes} BASE_URL={BASE_URL} />
     </div>
   );
 }

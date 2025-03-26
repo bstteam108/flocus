@@ -1,21 +1,11 @@
-import { getGlobalSettings } from '../../src/data/loader';
+
 import Link from 'next/link'
-import { notFound } from 'next/navigation';
 import React from 'react'
 import classes from '../../src/app/home.module.css'
-import { getStrapiURL } from '../../src/utils/get-strapi-url';
 
 
-async function loader() {
-    const navbar = await getGlobalSettings();
-    if (!navbar) notFound();
-    return { ...navbar.data.header }
-}
 
-
-export default async function Navbar() {
-    const data = await loader();
-    const BASE_URL = getStrapiURL();
+export default function BrowserNavbar({data, BASE_URL}) {
     return (
         <>
             <header className={classes.ss_header_sec}>

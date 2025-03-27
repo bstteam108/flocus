@@ -1,0 +1,30 @@
+.slider-container {
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: ${extendedImages.length * (100 / itemsPerPage)}%;
+  }
+  .slide {
+    width: calc(100% / ${extendedImages.length});
+    flex: 0 0 calc(100% / ${itemsPerPage});
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .prev { left: 10px; }
+  .next { right: 10px; }

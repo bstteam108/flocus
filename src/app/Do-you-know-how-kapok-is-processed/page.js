@@ -6,9 +6,6 @@ import { getThirdPage } from '../../data/loader';
 import classes from '../home.module.css';
 import Banner from '../../../components/Banner';
 import { getStrapiURL } from '../../utils/get-strapi-url';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import ReactMarkdown from 'react-markdown'
 import SliderPage from '../../../components/SliderPage';
 
@@ -48,9 +45,9 @@ export default function Application() {
 
       {/* Slider Section */}
 
-     {/* <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
+     <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
 
-      <SliderPage classes={classes} data={data.img} BASE_URL={BASE_URL} /> */}
+      <SliderPage classes={classes} data={data.img} BASE_URL={BASE_URL} />
     </div>
   );
 }

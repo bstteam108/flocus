@@ -25,6 +25,11 @@ export default function Application() {
   if (!data || !data.images || !Array.isArray(data.images.image)) {
     return <div>Loading...</div>;
   }
+  const val = Array(9).fill(1); // More concise way to create an array of 9 elements
+
+  console.log(data.images.image)
+
+  console.log(val)
 
   return (
     <div>
@@ -40,7 +45,9 @@ export default function Application() {
         </div>
       </section>
 
-      {/* <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} /> */}
+     
+
+      <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
 
       <section className={`${classes.ss_blog_main_sec} ${classes.ss_what_kapa_pg}`}>
         <div className="container">

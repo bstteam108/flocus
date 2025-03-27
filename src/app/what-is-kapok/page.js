@@ -25,11 +25,13 @@ export default async function Home() {
         <div className="container">
           <div className={classes.ss_blog_view_head_dv}>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-md-6">
+                <div className={classes.ss_what_kapak_hed}>
                 <h2>{data.cartTitile}</h2>
                 <p>{data.description}</p>
+                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-md-6">
                 <div className={classes.ss_blog_view_dv}><a href="/contact-us">Contact Us</a></div>
               </div>
             </div>

@@ -228,12 +228,17 @@ width: 100%;
 .ss_blog_main_sec h2{
     color:#fff;
     font-weight: 200;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .ss_blog_view_dv{
     text-align: right;
 }
+
+.ss_what_kapa_pg .ss_what_kapak_hed p{
+    font-size: 20px;
+}
+
 .ss_blog_view_dv a{
     border: 1px solid #fff;
     display: inline-block;
@@ -244,7 +249,7 @@ width: 100%;
 }
 
 .ss_blog_main_sec{
-    padding: 70px 0;
+    padding: 90px 0;
 }
 .ss_blog_cale_bx_div{
     display: flex;
@@ -260,7 +265,7 @@ width: 100%;
     font-weight:200;
 }
 .ss_blog_view_head_dv{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .ss_hm_blog_page_col{
@@ -509,7 +514,7 @@ border-radius: 100px;
 
 .ss_why_icon_div ul li{
     background: #181818;
-    padding: 40px 25px;
+    padding: 30px 14px 15px;
     border-radius: 10px;
     text-align: center;
     width: 100%;
@@ -544,7 +549,11 @@ border-radius: 100px;
 
 .ss_what_kapa_pg p{
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.ss_what_kapa_pg h2{
+    margin-bottom: 15px;
 }
 
 
@@ -579,12 +588,12 @@ border-radius: 100px;
 
 .ss_what_is_page_lft_img_s img{
     filter: brightness(0) invert();
-   width: 100px;
+   width: 80px;
 
 }
 .ss_what_is_page_lft_txt_img{
     padding: 120px 0;
-    padding-left: 100px;
+    padding-left: 130px;
     position: relative;
     height: 100%;
 
@@ -597,12 +606,14 @@ border-radius: 100px;
 }
 
 .ss_what_is_page_lft_txt_img p{
-    font-size: 22px;
+    font-size:28px;
     color: #fff;
 }
 .ss_what_is_textt_sec{
     position: absolute;
     bottom: 80px;
+    width: 60%;
+    max-width: 440px;
 }
 .ss_what_is_page_lft_txt_img_full img{
     width: 100%;

@@ -264,7 +264,7 @@ width: 100%;
 }
 
 .ss_hm_blog_page_col{
-    width: calc(33.33% - 26.66px);
+    width: calc(33.33% - 26.66px) !important;
     box-sizing: border-box;
 }
 .ss_hm_blog_page_row{
@@ -1264,4 +1264,8 @@ display: flex;
 
 .ss_blg_dtl_lft_sec{
     padding-right: 20px;
+}
+
+.section_class{
+    font-family: sans-serif;
 }

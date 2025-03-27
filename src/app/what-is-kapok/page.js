@@ -30,7 +30,7 @@ export default async function Home() {
                 <p>{data.description}</p>
               </div>
               <div className="col-lg-6">
-                <div className={classes.ss_blog_view_dv}><a href="#">View All</a></div>
+                <div className={classes.ss_blog_view_dv}><a href="/contact-us">Contact Us</a></div>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default async function Home() {
           <div className="row">
             <div className="col-lg-12">
               <div className={classes.ss_what_center}>
-                <h2>Flocus&apos; kapok fiber is Oeko-Tex Standard 100 certified.</h2>
+                <h2>Flocus&apos; kapok fiber is Oeko-Tex Standard 100 certified.`</h2>
               </div>
             </div>
           </div>

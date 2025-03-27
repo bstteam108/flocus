@@ -20,7 +20,7 @@ export default async function CartPage({ classes, BASE_URL }) {
                 <div className={classes.ss_blog_view_head_dv}>
                     <div className="row">
                         <div className="col-md-6">
-                            <h2>{filteredData?.title || "Cart Items"}</h2>
+                            <h2>{filteredData?.title || "Kapok Knowledge Hub"}</h2>
                         </div>
                         <div className="col-md-6">
                             <div className={classes.ss_blog_view_dv}><Link href="/blog-list">View All</Link></div>

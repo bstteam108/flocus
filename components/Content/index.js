@@ -7,7 +7,7 @@ const ContentPage = ({classes, BASE_URL, infoBlocks}) => {
     return (
         <>
             {infoBlocks.map((item, index) => (
-                <section key={item.id || index} className={!item.reversed ? classes.ss_full_banner_text_left : classes.ss_full_banner_text}>
+                <section key={item.id || index} className={`${!item.reversed ? classes.ss_full_banner_text_left : classes.ss_full_banner_text} ${item.cta.href == 'choosing-flocus-kapok' ? classes.section_class:""}`}>
                     <div>
                         <img src={`${BASE_URL}${item.image.url}`} />
                     </div>

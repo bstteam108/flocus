@@ -40,19 +40,18 @@ export default function Application() {
         </div>
       </section>
 
-      <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
+      {/* <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} /> */}
 
       <section className={`${classes.ss_blog_main_sec} ${classes.ss_what_kapa_pg}`}>
         <div className="container">
           <div className={classes.ss_blog_view_head_dv}>
             <div className="row">
               <div className="col-lg-6">
-                <h2>HElo</h2>
-                <p>hello</p>
+                <h2>Where do we apply Flocus™ kapok</h2>
               </div>
               <div className="col-lg-6">
                 <div className={classes.ss_blog_view_dv}>
-                  <a href="#">Contact Us</a>
+                  <a href="/contact-us">Contact Us</a>
                 </div>
               </div>
             </div>

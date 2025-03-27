@@ -48,11 +48,9 @@ export default function Application() {
 
       {/* Slider Section */}
 
-     <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
+     {/* <SliderPage classes={classes} data={data.images} BASE_URL={BASE_URL} />
 
-
-      {/* Second Slider */}
-      <SliderPage classes={classes} data={data.img} BASE_URL={BASE_URL} />
+      <SliderPage classes={classes} data={data.img} BASE_URL={BASE_URL} /> */}
     </div>
   );
 }

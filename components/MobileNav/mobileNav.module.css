@@ -6,7 +6,7 @@
     top: 0px;
     left: 0px;
     width: 100vw;
-    background-color: #ffffff98;
+    background-color: #70707096;
     box-shadow: 0px 10px 15px #0000000d;
     backdrop-filter: blur(10px);
     transition: transform 0.3s;
@@ -41,7 +41,8 @@
   }
   
   .brand img {
-    max-width: 35px;
+    max-width: 60px;
+    padding-left: 12px;
   }
   
   .end {
@@ -75,6 +76,7 @@
     background: none;
     width: 56px;
     height: 40px;
+    color: #fff;
     /* display: none; */
   }
   
@@ -131,12 +133,18 @@
   }
   
   .sidebar_list {
-    margin: 2px 10px;
+    margin: 15px 20px;
     border-bottom: 1px solid var(--border_color);
+    font-weight: 400;
   }
   
   .sidebar_list:last-child {
     border-bottom: none;
+  }
+
+  .sidebar_list a{
+    text-decoration: none;
+    color: #000;
   }
   
   .sidebar_item {
@@ -168,3 +176,32 @@
 .ss_hed_btn_2{
   margin-left: 25px;
 }
+
+
+
+  .ss_hed_btn_1 a {
+    border: 0px solid #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.ss_hed_btn_1{
+  padding: 0px 20px 15px;
+}
+
+.ss_hed_btn_2 a {
+  
+  border: 0px solid #fff;
+  color: #000 !important;
+  font-weight: 400;
+  text-decoration: none;
+  background: transparent;
+}
+.ss_hed_btn_2{
+  margin: 0px 20px 0;
+ 
+}
+

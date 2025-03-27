@@ -21,6 +21,9 @@ export default function MobileNav({ data, BASE_URL }) {
         <>
             <nav className={c.nav}>
                 <div className={c.start}>
+                <div className={c.brand}>
+                        <Link href="/"><img src={`${BASE_URL}${data.logo.image.url}`} alt="Logo" /></Link>
+                    </div>
                     <button
                         className={c.sidebar_button}
                         onClick={toggleSidebar}
@@ -28,9 +31,7 @@ export default function MobileNav({ data, BASE_URL }) {
                     >
                         <List width={51} height={35} />
                     </button>
-                    <div className={c.brand}>
-                        <Link href="/"><img src={`${BASE_URL}${data.logo.image.url}`} alt="Logo" /></Link>
-                    </div>
+                  
                 </div>
             </nav>
             <Sidebar show={show} toggle={toggleSidebar} data={data} BASE_URL={BASE_URL} />

@@ -19,17 +19,17 @@ export default async function CartPage({ classes, BASE_URL }) {
             <div className="container">
                 <div className={classes.ss_blog_view_head_dv}>
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-md-6">
                             <h2>{filteredData?.title || "Cart Items"}</h2>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6">
                             <div className={classes.ss_blog_view_dv}><Link href="/blog-list">View All</Link></div>
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className={`row ${classes.ss_hm_blog_page_row}`}>
                     {cartItems.map((item, index) => (
-                        <div className="col-lg-4" key={index}>
+                        <div className={`col-lg-4  ${classes.ss_hm_blog_page_col}`} key={index}>
                             <div className={classes.ss_blog_bx_div}>
                                 <Link href={`/blog-details/${item.documentId}`}>                                <div>
                                     <img src={`${BASE_URL}${item.image?.url || ""}`} alt="Cart Item" />

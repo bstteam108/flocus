@@ -628,7 +628,7 @@ border-radius: 100px;
 }
 
 .padd_rit_0{
-    padding-right: 0;
+    padding-right: 0 !important;
 }
 
 .ss_what_is_textt_sec span{
@@ -1064,7 +1064,7 @@ order: 1;
 }
 
 .padd_lft_0{
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 /***blog page***/
@@ -1081,7 +1081,7 @@ order: 1;
    }
    
    .ss_blog_page_col {
-     width: calc(33.33% - 26.66px); /* Subtract gap to maintain 33% width */
+     width: calc(33.33% - 26.66px) !important; /* Subtract gap to maintain 33% width */
      box-sizing: border-box;
    }
  .ss_blog_text_bx_div p{

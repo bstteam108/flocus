@@ -13,7 +13,7 @@ export default function BrowserNavbar({data, BASE_URL}) {
                     <div className={classes.ss_row}>
                         <div className="col-lg-2">
                             <div className={classes.ss_logo_sec}>
-                                <Link href="/"><img src={`${BASE_URL}${data.logo.image.url}`} /></Link>
+                                <Link href="/"><img src={`http://admin.flocus.store${data.logo.image.url}`} /></Link>
                             </div>
                         </div>
                         <div className="col-lg-10">

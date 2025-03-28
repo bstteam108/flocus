@@ -31,7 +31,7 @@ export default function SliderPage({ classes, data, BASE_URL }) {
               spaceBetween={20}
               loop={true} // Continuous loop
               autoplay={{
-                delay: 2000, // 2 seconds per slide
+                delay: 5000, // 2 seconds per slide
                 disableOnInteraction: false, // User interaction ke baad bhi autoplay continue rahe
               }}
               navigation

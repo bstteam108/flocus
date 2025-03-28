@@ -23,7 +23,7 @@ export default function BrowserNavbar({data, BASE_URL}) {
                                         <li key={index}><Link href={item.href}>{item.text}</Link></li>
                                     )}
                                     {data.cta.map((item, index) =>
-                                        <li  key={index}  className={item.text == "CONTACT US" ? classes.ss_hed_btn_1 : classes.ss_hed_btn_2}><a href="#">{item.text}</a></li>
+                                        <li  key={index}  className={item.text == "CONTACT US" ? classes.ss_hed_btn_1 : classes.ss_hed_btn_2}><a href={item.href}>{item.text}</a></li>
                                     )}
                                 </ul>
                             </div>

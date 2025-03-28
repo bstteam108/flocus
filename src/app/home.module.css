@@ -628,7 +628,7 @@ border-radius: 100px;
 }
 
 .padd_rit_0{
-    padding-right: 0 !important;
+    padding-right: 0;
 }
 
 .ss_what_is_textt_sec span{
@@ -789,11 +789,7 @@ font-size: 18px;
    }
    
    .ss_blog_page_col {
-<<<<<<< HEAD
-     width: calc(33.33% - 26.66px) !important; /* Subtract gap to maintain 33% width */
-=======
      width: calc(33.33% - 26.66px) !important; 
->>>>>>> 7735801 (contact us page)
      box-sizing: border-box;
    }
  .ss_blog_text_bx_div p{
